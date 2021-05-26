@@ -1,1 +1,20 @@
-😀 Hello World!!!
+# <h1 align="center">Hi, I'm <a href="https://github.com/razeencheng">RazeenCheng<a><img src="http://st.razeen.cn/img/wave.gif" width="60px" /></h1>
+
+<p align="center">
+    <img width="200" src="https://st.razeen.cn/static/img/avatar.png">
+</p>
+
+<div>
+<strong> About Me :</strong><br><br>
+📫 Reach me at <a href="mailto:me@razeen.me">me@razeen.me</a><br>
+😄 Find me on <a href="https://twitter.com/razeencheng">Twitter</a><br><br><br>
+<strong>📊 My Github Stats :</strong><br><br>
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=razeencheng&show_icons=true&count_private=true&include_all_commits=true&theme=radical)<br>
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=razeencheng&theme=radical&hide_border=true"/><br><br>
+
+<strong>💡 My Languages :</strong><br><br>
+<img src="https://img.shields.io/badge/-Golang-lightgrey?style=plastic"/>
+<img src="https://img.shields.io/badge/-Shell-lightgrey?style=plastic"/>
+<img src="https://img.shields.io/badge/-iOS-lightgrey?style=plastic"/>
+
+</div>
