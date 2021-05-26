@@ -6,6 +6,7 @@
 
 <div>
 <strong> About Me :</strong><br><br>
+🛠 My blog <a href="https://razeencheng.com">razeencheng.com</a><br>
 📫 Reach me at <a href="mailto:me@razeen.me">me@razeen.me</a><br>
 😄 Find me on <a href="https://twitter.com/razeencheng">Twitter</a><br><br><br>
 <strong>📊 My Github Stats :</strong><br><br>
