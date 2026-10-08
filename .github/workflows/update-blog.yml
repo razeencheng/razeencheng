@@ -1,0 +1,42 @@
+name: Update latest blog posts
+
+on:
+  schedule:
+    # 01:23 UTC = 09:23 Asia/Singapore, daily.
+    - cron: '23 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-blog-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'razeencheng/razeencheng'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Read RSS and refresh the latest-writing section
+        run: python3 .github/scripts/update_blog.py
+
+      - name: Commit only when the article list changed
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No new posts."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- README.md
+          git commit -m "docs: refresh latest blog posts"
+          git push origin "HEAD:$DEFAULT_BRANCH"
