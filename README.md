@@ -14,9 +14,9 @@ I build practical tools for self-hosting and everyday workflows.
 ## Latest writing
 
 <!-- BLOG-POST-LIST:START -->
+- `2026-11-20` &nbsp; [RackNerd's Black Friday 2026 VPS Deals Are Back](https://razeencheng.com/posts/en/racknerd-black-friday-2026-vps-deals/) · [中文](https://razeen.me/posts/racknerd-black-friday-2026-vps-deals/)
 - `2026-11-10` &nbsp; [iOS Backup v1.5.6 Is Here!](https://razeencheng.com/posts/en/ios-backup-v1-5-6-update/) · [中文](https://razeen.me/posts/ios-backup-v1-5-6-update/)
 - `2026-10-28` &nbsp; [Compliance Is a Sword Hanging over Trusted CAs: Which CA Will Fall Next?](https://razeencheng.com/posts/en/ca-compliance-who-will-fall-next/) · [中文](https://razeen.me/posts/ca-compliance-who-will-fall-next/)
-- `2026-10-08` &nbsp; [Automatic iPhone Backups to a NAS: Now Open Source](https://razeencheng.com/posts/en/iphone-wifi-backup-nas-open-source/) · [中文](https://razeen.me/posts/iphone-wifi-backup-nas-open-source/)
 <!-- BLOG-POST-LIST:END -->
 
 [English →](https://razeencheng.com/) · [中文 →](https://razeen.me/)
